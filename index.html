@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Document</title>
+</head>
+<body>
+  <div style="position: absolute; width: 150px; height: 150px; background-color: #6B8E23; top: 20px; left: 20px;" class="satu">
+    <div style="position: absolute; width: 150px; height: 150px; background-color: #9b59b6; top: 20px; left: 20px;" class="dua">
+    </div>
+  </div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Daftar Kue Kesukaan</title>
+    <style>
+        .container {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: top;
+            align-items: center;
+            flex-direction: column;
+            background-color: #f8f8f8;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .cake-list {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+            position: relative;
+        }
+
+        .cake-item {
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .satu {
+            width: 150;
+            height: 150;
+            background-color: #6B8E23;
+            top: 20px;
+            left: 20px;
+        }
+
+        .dua {
+            width: 150px;
+            height: 150px;
+            background-color: #9B59B6;
+            top: 20px;
+            left: 20px;
+        }
+
+        .cake-item h3 {
+            font-size: 1.2rem;
+            color: #333;
+        }
+
+        .cake-item p {
+            font-size: 1rem;
+            color: #dddddd;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" style="position: absolute;">
+        <h1>Daftar Kue Kesukaan</h1>
+        <p>Pilih kue favoritmu dan nikmati kelezatannya!</p>
+
+        <div class="cake-list">
+            <div class="cake-item satu">
+                <h3>Kue Sus</h3>
+                <p>Creamy dan manis</p>
+            </div>
+            <div class="cake-item dua">
+                <h3>Kue balok</h3>
+                <p>Manis dan lumer</p>
+            </div>
+            <div class="cake-item" style="background-color: #b19421;">
+                <h3>Kue bolu</h3>
+                <p>Tekstur yang empuk</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
